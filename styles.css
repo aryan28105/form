@@ -1,0 +1,103 @@
+/* General Styles for the Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the form vertically and horizontally */
+}
+
+/* Container that holds the form */
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    margin: 0 15px; /* Add margin to both sides for responsiveness */
+    text-align: center;
+}
+
+/* Header Style */
+h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Styling the form container */
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for form container */
+.form-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling individual form groups (labels and inputs) */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+/* Focus effect on inputs and textarea */
+input:focus,
+textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    background: #fff;
+}
+
+/* Submit Button Styling */
+button {
+    width: 100%;
+    padding: 16px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #2563eb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
